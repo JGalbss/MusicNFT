@@ -32,7 +32,7 @@ contract MusicMarket is ERC721URIStorage {
       bool sold
     );
 
-    constructor() ERC721("Metaverse Tokens", "METT") {
+    constructor() ERC721("Coda Token", "Coda") {
       owner = payable(msg.sender);
     }
 
